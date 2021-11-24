@@ -1,11 +1,11 @@
+//!/bin/bash
 // * ******************************************************************************
 // * Author: xborner
 // * Email: xbornerw@gmail.com
 // * Last modified: 2021-07-04 09:48
 // * Filename: auto_freestyle.km
 // * Version: 1.0.4
-// * Description: 街头篮球挂机脚本，适用分辨率 2560 * 1440，游戏分辨率 1920 * 1080（窗口在默认方向）
-// * 当输的次数太多，可能会匹配不到人
+// * Description: 街头篮球挂机脚本，适用分辨率 1920 * 1080（窗口在默认方向）
 // * *****************************************************************************
 
 MoveTo 1650,980
@@ -17,6 +17,10 @@ LeftClick	//左键单击
 MoveTo 1000,660
 Delay 100
 LeftClick	//左键单击
+MoveTo 1028, 715  //取消获得 buff 弹框
+Delay 100
+LeftClick	//左键单击
+
 
 KeyUp "J", 1
 Delay 168
@@ -114,6 +118,9 @@ MoveTo 950,660
 Delay 100
 LeftClick	//左键单击
 MoveTo 1000,660
+Delay 100
+LeftClick	//左键单击
+MoveTo 1028, 715  //取消获得 buff 弹框
 Delay 100
 LeftClick	//左键单击
 
@@ -420,3 +427,5 @@ KeyDown "O", 1
 Delay 499
 Delay 28
 KeyUp "O", 1
+
+'==========以上是按键精灵录制的内容==========
