@@ -1,0 +1,32 @@
+// 按住 Enter--点击正常状态 roll--点击苦乱之路 roll--重复 2、3--弹起 Enter
+// 分辨率 2560 * 1440
+KeyDown "Enter", 1
+Delay 20
+
+// 点击 roll
+MoveTo 1898,1066
+LeftDown
+Delay 800
+LeftUp
+
+// 幸运游戏
+MoveTo 1751,969
+LeftDown
+Delay 800
+LeftUp
+
+// 关闭窗口
+MoveTo 1945,399
+LeftDown
+Delay 800
+LeftUp
+
+// 富翁时代
+MoveTo 1520,607
+LeftDown
+Delay 800
+LeftUp
+
+
+
+
